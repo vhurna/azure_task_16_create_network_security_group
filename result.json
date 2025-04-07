@@ -1,0 +1,99 @@
+{
+    "virtualNetworkName": "todoapp",
+    "subnets": [
+      {
+        "name": "webservers",
+        "addressPrefix": "10.20.30.0/26"
+      },
+      {
+        "name": "database",
+        "addressPrefix": "10.20.30.64/26"
+      },
+      {
+        "name": "management",
+        "addressPrefix": "10.20.30.128/26"
+      }
+    ],
+    "resourceGroupName": "mate-azure-task-15",
+    "location": "uksouth"
+  }
+
+
+
+  SubnetsText                 : [
+    {
+      "Delegations": [],
+      "Name": "webservers",
+      "Etag": "W/\"1881dad2-3869-42e3-8302-8aa9a9eed65f\"",
+      "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/virtualNetworks/todoapp/ 
+  subnets/webservers",
+      "AddressPrefix": [
+        "10.20.30.0/26"
+      ],
+      "IpamPoolPrefixAllocations": [],
+      "IpConfigurations": [],
+      "ServiceAssociationLinks": [],
+      "ResourceNavigationLinks": [],
+      "NetworkSecurityGroup": {
+        "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/networkSecurityGroups/ 
+  webservers"
+      },
+      "ServiceEndpoints": [],
+      "ServiceEndpointPolicies": [],
+      "PrivateEndpoints": [],
+      "ProvisioningState": "Succeeded",
+      "PrivateEndpointNetworkPolicies": "Disabled",
+      "PrivateLinkServiceNetworkPolicies": "Enabled",
+      "IpAllocations": []
+    },
+    {
+      "Delegations": [],
+      "Name": "database",
+      "Etag": "W/\"1881dad2-3869-42e3-8302-8aa9a9eed65f\"",
+      "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/virtualNetworks/todoapp/ 
+  subnets/database",
+      "AddressPrefix": [
+        "10.20.30.64/26"
+      ],
+      "IpamPoolPrefixAllocations": [],
+      "IpConfigurations": [],
+      "ServiceAssociationLinks": [],
+      "ResourceNavigationLinks": [],
+      "NetworkSecurityGroup": {
+        "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/networkSecurityGroups/ 
+  database"
+      },
+      "ServiceEndpoints": [],
+      "ServiceEndpointPolicies": [],
+      "PrivateEndpoints": [],
+      "ProvisioningState": "Succeeded",
+      "PrivateEndpointNetworkPolicies": "Disabled",
+      "PrivateLinkServiceNetworkPolicies": "Enabled",
+      "IpAllocations": []
+    },
+    {
+      "Delegations": [],
+      "Name": "management",
+      "Etag": "W/\"1881dad2-3869-42e3-8302-8aa9a9eed65f\"",
+      "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/virtualNetworks/todoapp/ 
+  subnets/management",
+      "AddressPrefix": [
+        "10.20.30.128/26"
+      ],
+      "IpamPoolPrefixAllocations": [],
+      "IpConfigurations": [],
+      "ServiceAssociationLinks": [],
+      "ResourceNavigationLinks": [],
+      "NetworkSecurityGroup": {
+        "Id": "/subscriptions/baf1bb4f-888c-4ae1-a401-0adf409b029b/resourceGroups/mate-azure-task-15/providers/Microsoft.Network/networkSecurityGroups/ 
+  management"
+      },
+      "ServiceEndpoints": [],
+      "ServiceEndpointPolicies": [],
+      "PrivateEndpoints": [],
+      "ProvisioningState": "Succeeded",
+      "PrivateEndpointNetworkPolicies": "Disabled",
+      "PrivateLinkServiceNetworkPolicies": "Enabled",
+      "IpAllocations": []
+    }
+  ]
